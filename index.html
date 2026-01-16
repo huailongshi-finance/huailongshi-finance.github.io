@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 项目成果展示</title>
+    <style>
+        body { font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif; margin: 0; padding: 0; line-height: 1.6; color: #333; background-color: #f8f9fa; }
+        .container { max-width: 1000px; margin: 30px auto; padding: 20px 40px; background: white; box-shadow: 0 2px 15px rgba(0,0,0,0.08); border-radius: 10px; }
+        header { text-align: center; padding-bottom: 30px; border-bottom: 3px solid #2c80d4; margin-bottom: 40px; }
+        h1 { color: #2c3e50; margin-bottom: 10px; }
+        .subtitle { color: #7f8c8d; font-size: 1.2em; margin-bottom: 20px; }
+        .intro { font-size: 1.1em; color: #555; margin: 25px 0; padding: 20px; background-color: #f0f7ff; border-left: 5px solid #2c80d4; }
+        section { margin-bottom: 50px; }
+        h2 { color: #2c80d4; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        .pdf-preview-container { margin: 25px 0; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; }
+        iframe { display: block; width: 100%; height: 650px; border: none; }
+        .image-gallery img { max-width: 100%; height: auto; border-radius: 5px; margin: 15px 0; box-shadow: 0 3px 10px rgba(0,0,0,0.1); }
+        .caption { font-size: 0.95em; color: #666; text-align: center; font-style: italic; margin-top: -10px; }
+        footer { text-align: center; margin-top: 50px; padding-top: 20px; border-top: 1px solid #eee; color: #95a5a6; font-size: 0.9em; }
+        a { color: #2c80d4; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>复杂网络视角下的分析师竞争与信息传播研究</h1>
+            <p class="subtitle">国家自然科学基金项目成果展示</p>
+            <div class="intro">
+                <!-- 【请在此处粘贴您的项目简介】 -->
+                本项目从复杂网络视角，系统研究了中国金融市场中卖方分析师的行为竞争及其信息传导机制。通过构建“分析师-上市公司”动态网络，本项目在分析师竞争度量、信息不对称扩散、因子定价有效性及ESG同群效应等方面取得了系列创新发现，深化了对市场信息效率与资产定价的理解。
+                <!-- 【粘贴结束】 -->
+            </div>
+        </header>
+
+        <section id="slides">
+            <h2>📊 项目汇报幻灯片</h2>
+            <p>以下为本项目结题汇报的核心幻灯片，支持在线预览与翻页。</p>
+            <div class="pdf-preview-container">
+                <!-- 【请将 src 中的 “project_slides.pdf” 替换为您的PDF实际文件名】 -->
+                <iframe src="project_slides.pdf"></iframe>
+                <!-- 【替换结束】 -->
+            </div>
+            <p><small>提示：若预览窗无法加载，您也可以<a href="project_slides.pdf" target="_blank">直接下载PDF文件</a>。</small></p>
+        </section>
+
+        <section id="results">
+            <h2>🏆 核心成果图解</h2>
+            <p>部分关键研究发现的数据可视化展示：</p>
+            <div class="image-gallery">
+                <!-- 【请将 src 中的图片名替换为您的实际图片名，并修改说明文字】 -->
+                <img src="result_chart1.png" alt="分析师竞争与价格延迟关系图">
+                <p class="caption">图1：分析师竞争强度与股票价格延迟呈显著负相关，表明竞争改善了信息效率。</p>
+                <!-- 您可以复制更多图片区块 -->
+                <!-- <img src="result_chart2.png" alt="SC加权动量策略收益">
+                <p class="caption">图2：基于网络中心性(SC)加权的交叉动量策略表现出显著且稳健的超额收益。</p> -->
+                <!-- 【替换结束】 -->
+            </div>
+        </section>
+
+        <section id="publications">
+            <h2>📚 代表性学术论文</h2>
+            <p>项目产出的部分高水平SSCI期刊论文：</p>
+            <ul>
+                <li><strong>Detecting cross-firm momentum effects via shared analyst coverage: The role of leaders</strong> – <em>Journal of International Financial Markets, Institutions & Money</em> (2025)</li>
+                <li><strong>Analyst competition and price discovery: Evidence from China</strong> – <em>Under Review</em></li>
+                <li><strong>Shared analyst coverage and ESG spillovers: Evidence from China</strong> – <em>Under Review</em></li>
+                <!-- 您可以根据表1继续添加 -->
+            </ul>
+        </section>
+
+        <footer>
+            <p>© 2025 本项目课题组。本网站为国家自然科学基金项目（项目号：XXXX）的成果科普展示平台。</p>
+            <p>网站基于 GitHub Pages 构建并开源。</p>
+            <p>最后更新：<script>document.write(new Date().toLocaleDateString());</script></p>
+        </footer>
+    </div>
+</body>
+</html>
